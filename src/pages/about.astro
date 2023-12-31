@@ -1,74 +1,80 @@
 ---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
 const pageTitle = "About me";
 const identity = {
   firstName: "Tony",
   country: "US",
-  occupation: "Retired programmer",
+  occupation: "retired programmer",
   hobbies: ["programming", "metal art", "pyrography, writing"],
 };
 const skills = ["HTML", "CSS", "JavaScript", "Basic", "Astro", "Arduino"];
 const happy = true;
-const finished = false;
+const finished = true;
 const goal = 3;
+
+const skillColor = "navy";
+const fontWeight = "bold";
+const textCase = "uppercase";
 ---
+<style>
+  h1 {
+    color: purple;
+    font-size: 4rem;
+  }
+  .skill {
+    color: green;
+    font-weight: bold;
+  }
 
-<html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-    <meta name="viewport" content="width=device-width" />
-    <meta name="generator" content={Astro.generator} />
-    <title>{pageTitle}</title>
-  </head>
+</style>
 
-  <body>
-    <a href="/">Home</a>
-    <a href="/about/">About</a>
-    <a href="/blog">Blog</a>
-    <h1>{pageTitle}</h1>
-    <h2>... and my 4thWay site!</h2>
+<!-- This from the BaseLayout.astro page -->
+<BaseLayout pageTitle={pageTitle}>
+  <h2>Just a little about me</h2>
 
-    <p>
-      I am working through Astro's introductory tutorial to create my own blog
-      site.
-    </p>
+  <p>I'm a Renaissance man. You know what that is, don't you? <br>
+    If not, look it up.
+  </p>
 
-    <p>
-      This site will update as I complete more of the tutorial, so keep checking
-      back and see how my journey is going!
-    </p>
+  <p>
+    I am currently working through Astro's introductory tutorial to create my own blog
+    site.
+  </p>
 
-    <p>Here are a few facts about me:</p>
-    <ul>
-      <li>My name is {identity.firstName}.</li>
-      <li>
-        I live in the {identity.country} and I work as a {identity.occupation}.
-      </li>
-      {
-        identity.hobbies.length >= 2 && (
-          <li>
-            Two of my hobbies are: {identity.hobbies[0]} and{" "}
-            {identity.hobbies[1]}
-          </li>
-        )
-      }
-    </ul>
-    <p>My skills are:</p>
-    <ul>
-      {skills.map((skill) => <li>{skill}</li>)}
-    </ul>
+  <p>
+    This site will update as I complete more of the tutorial, so keep checking
+    back and see how my journey is going!
+  </p>
 
-    {happy && <p>I am happy to be learning Astro!</p>}
-
-    {finished && <p>I finished this tutorial!</p>}
-
+  <p>Here are a few facts about me:</p>
+  <ul>
+    <li>My name is {identity.firstName}.</li>
+    <li>
+      I live in the {identity.country} and I work as a {identity.occupation}.
+    </li>
     {
-      goal === 3 ? (
-        <p>My goal is to finish in ? days.</p>
-      ) : (
-        <p>My goal is not 3 days.</p>
+      identity.hobbies.length >= 2 && (
+        <li>
+          Two of my hobbies are: {identity.hobbies[0]} and {identity.hobbies[1]}
+        </li>
       )
     }
-    
-  </body>
-</html>
+  </ul>
+  <p>My skills are:</p>
+  <ul>
+    {skills.map((skill) => <li class="skill">{skill}</li>)}
+  </ul>
+
+  {happy && <p>I am happy to be learning Astro!</p>}
+
+  {finished && <p>I finished this tutorial!</p>}
+
+  {
+    goal === 3 ? (
+      <p>My goal is to finish in ? days.</p>
+    ) : (
+      <p>My goal is not 3 days.</p>
+    )
+  }
+</BaseLayout>

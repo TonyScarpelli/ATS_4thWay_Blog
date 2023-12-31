@@ -1,1 +1,31 @@
-Conditionally render elements
+Congratulations!
+https://docs.astro.build/en/tutorial/6-islands/3/
+
+
+=======================================================================
+To be done?
+Add an RSS feed
+https://docs.astro.build/en/tutorial/5-astro-api/4/
+
+
+=======================================================================
+Other things to consider:
+Analyze the Pattern
+There are other client: directives to explore. Each sends the JavaScript to the client at a different time. client:visible, for example, will only send the component’s JavaScript when it is visible on the page.
+
+Consider an Astro component with the following code:
+
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import AstroBanner from '../components/AstroBanner.astro';
+import PreactBanner from '../components/PreactBanner';
+import SvelteCounter from '../components/SvelteCounter.svelte';
+---
+<BaseLayout>
+  <AstroBanner />
+  <PreactBanner />
+  <PreactBanner client:load />
+  <SvelteCounter />
+  <SvelteCounter client:visible />
+</BaseLayout>
+

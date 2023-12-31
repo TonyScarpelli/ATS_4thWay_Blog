@@ -1,16 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My First Blog Post'
-pubDate: 2023-12-24
+pubDate: 12-26-2023
 description: 'This is the first post of my ATS_4thWay_Blog.'
 author: 'Tony Scarpelli'
 image:
-    url: 'https://docs.astro.build/assets/full-logo-light.png'
-    alt: 'The full Astro logo.'
-tags: ["astro", "blogging", "learning in public"]
+    url: 'C:\Users\tonyA\Documents\A_GIT Local\astro-blog\src\HyperCube.png'
+    alt: 'Hyper Cube'
+tags: ["astro", "blogging", "learning"]
 ---
-# My First Blog Post
-
-Published on: 12-24-2023
 
 Welcome to my blog.
 

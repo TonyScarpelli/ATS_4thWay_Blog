@@ -1,16 +1,14 @@
 ---
-title: 'My First Blog Post'
+layout: ../../layouts/MarkdownPostLayout.astro
+title: 'My Third Blog Post'
 author: 'Tony Scarpelli'
-description: 'This is my second post of my ATS_4thWay_Blog.'
+description: 'This is my third post of my ATS_4thWay_Blog.'
 image:
-    url: "https://docs.astro.build/assets/rays.webp"
-    alt: "Thumbnail of Astro rays."
-pubDate: 2023-12-24
-tags: ["astro", "learning in public", "setbacks", "community"]
+    url: 'C:\Users\tonyA\Documents\A_GIT Local\astro-blog\src\HyperCube.png'
+    alt: 'Hyper Cube'
+pubDate: 12-30-2023
+tags: ["astro", "blogging", "learning", "metal"]
 ---
-# My Third Blog Post
-
-Published on: 12-24-2023
 
 Welcome to my blog.
 
@@ -21,3 +19,5 @@ Welcome to my blog.
 ### The ## seems to represent an H2 tag.
 
 ### The ### seems to represent an H3 tag.
+
+### Create a metal rack for holding things.

@@ -1,16 +1,14 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: My Second Blog Post
 author: 'Tony Scarpelli'
 description: 'This is my second post of my ATS_4thWay_Blog.'
 image:
-    url: "https://docs.astro.build/assets/arc.webp"
-    alt: "Thumbnail of Astro arcs."
-pubDate: 2023-12-24
-tags: ["astro", "blogging", "learning in public", "successes"]
+    url: 'C:\Users\tonyA\Documents\A_GIT Local\astro-blog\src\HyperCube.png'
+    alt: 'Hyper Cube'
+pubDate: 12-28-2023
+tags: ["astro", "blogging", "learning"]
 ---
-# My Second Blog Post
-
-Published on: 12-24-2023
 
 Welcome to my blog.
 

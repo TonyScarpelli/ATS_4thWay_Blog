@@ -1,0 +1,37 @@
+---
+const platform = "github";
+const username = "TonyScarpelli";
+import Social from './Social.astro';
+---
+<style>
+  /* This makes it horizontal so I commented it out, I liked vertical better*/
+  footer {
+    /*display: flex;
+    gap: 1rem;
+    margin-top: 2rem;*/
+  }
+</style>
+
+<footer>
+  <br> <br>
+  =====================================================================
+  <p>
+    Learn more about my projects on <a
+      href={`https://www.${platform}.com/${username}`}>{platform}</a
+    >
+  </p>
+  <p>
+    Visit my site:
+    <a href="https://tonyscarpelli.github.io/TonyATSWebSite/index.html"
+      >4thWay Consulting</a
+    >
+  </p>
+  <p>
+    And here's
+    <a href="https://google.com">Google<a> </a></a>
+  </p>
+  
+  <Social platform="github" username="TonyScarpelli" />
+  
+</footer>
+<br><br>
