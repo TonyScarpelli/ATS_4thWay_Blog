@@ -1,11 +1,30 @@
-Congratulations!
-https://docs.astro.build/en/tutorial/6-islands/3/
+TTutorial - Extend with View Transitions
+https://docs.astro.build/en/tutorials/add-view-transitions/
 
 
 =======================================================================
+Tutorial - Extend with Content Collections
+https://docs.astro.build/en/tutorials/add-content-collections/
+
+Dynamically import images
+https://docs.astro.build/en/recipes/dynamically-importing-images/
+
+Images
+https://docs.astro.build/en/guides/images/
+
+How to Optimize & Dynamically Resize Images in Astro with Cloudinary
+https://spacejelly.dev/posts/how-to-optimize-dynamically-resize-images-in-astro-with-cloudinary/
+
 To be done?
 Add an RSS feed
 https://docs.astro.build/en/tutorial/5-astro-api/4/
+
+Update RSS function
+https://docs.astro.build/en/tutorials/add-content-collections/
+
+Tutorial - Extend with View Transitions
+https://docs.astro.build/en/tutorials/add-view-transitions/
+
 
 
 =======================================================================

@@ -2,9 +2,22 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Greeting from '../components/Greeting.jsx';
 const pageTitle = "Home Page";
+import { Image } from "astro:assets";
+import myImage from "../assets/HyperCube.png";
 ---
+
+<!-- <Image src={myImage} alt="HyperCube text" /> -->
+<!-- <img src="Images\HyperCube.png" width="190" height="200" alt="HyperCube" /> -->
+<Image
+  src={myImage}
+  alt="Hyper Cube"
+  width="66"
+  height="70"
+/>
 
 <BaseLayout pageTitle={pageTitle}>
   <h2>My world in bits and pieces</h2>
   <Greeting client:load messages={["Hi", "Hello", "Howdy", "Hey there"]} />
 </BaseLayout>
+
+
