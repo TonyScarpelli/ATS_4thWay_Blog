@@ -4,8 +4,8 @@ pubDate: 12-26-2023
 description: 'This is the first post of my ATS_4thWay_Blog.'
 author: 'Tony Scarpelli'
 image:
-    url: 'C:\Users\tonyA\Documents\A_GIT Local\astro-blog\src\HyperCube.png'
-    alt: 'Hyper Cube'
+    url: ''
+    alt: ''
 tags: ["astro", "blogging", "learning"]
 ---
 

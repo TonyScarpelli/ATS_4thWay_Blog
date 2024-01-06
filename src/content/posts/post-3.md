@@ -2,10 +2,10 @@
 title: 'My Third Blog Post'
 author: 'Tony Scarpelli'
 description: 'This is my third post of my ATS_4thWay_Blog.'
-image:
-    url: 'C:\Users\tonyA\Documents\A_GIT Local\astro-blog\src\HyperCube.png'
-    alt: 'Hyper Cube'
 pubDate: 12-30-2023
+image:
+    url: ''
+    alt: ''
 tags: ["astro", "blogging", "learning", "metal"]
 ---
 

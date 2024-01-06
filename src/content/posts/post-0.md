@@ -1,11 +1,11 @@
 ---
-title: 
+title: My ???? Blog Post
+pubDate: nn-nn-nnnn
+description: "This is the ???? post of my ATS_4thWay_Blog."
 author: Tony Scarpelli
-description: ""
 image:
-    url: 'C:\Users\tonyA\Documents\A_GIT Local\astro-blog\src\HyperCube.png'
-    alt: 'Hyper Cube image goes here'
-pubDate: 01-01-2024
+    url: ''
+    alt: ''
 tags: ["astro", "blogging"]
 ---
 Write here

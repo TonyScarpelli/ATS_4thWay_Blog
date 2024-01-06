@@ -2,11 +2,16 @@
 title: My Fourth Blog Post
 author: Tony Scarpelli
 description: "When we look within"
+pubDate: 01-04-2024
 image:
-    url: 'C:\Users\tonyA\Documents\A_GIT Local\astro-blog\src\HyperCube.png'
-    alt: 'Hyper Cube image goes here'
-pubDate: 12-30-2023
+  url: ""
+  alt: ""
 tags: ["astro", "blogging", "4thWay"]
 ---
 
-So many I's
+That image above is a Hyper Cube.<br>
+It comes from the modern mathematics called Topology. My interest in it came about through my interest in Moebius strips. I read a book called _The Mathematical Magpie_, edited by Clifton Fadiman. It was a wonderful trip into fourth dimensional spaces and beyond.<br>
+In the picture below, you’ll see some of the weird topological devices.<br><br>
+
+![Topology](./TopologyD.png)
+
