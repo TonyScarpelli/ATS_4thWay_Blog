@@ -25,7 +25,8 @@ https://docs.astro.build/en/tutorials/add-content-collections/
 Tutorial - Extend with View Transitions
 https://docs.astro.build/en/tutorials/add-view-transitions/
 
-
+10 Sites You Can Use for Free Blog Promotion
+https://blog.hubspot.com/blog/tabid/6307/bid/3013/8-free-links-to-promote-a-blog.aspx
 
 =======================================================================
 Other things to consider:

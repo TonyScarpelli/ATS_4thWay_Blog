@@ -1,0 +1,12 @@
+---
+title: My ???? Blog Post
+author: Tony Scarpelli
+description: "????"
+pubDate: nn-nn-nnnn
+image: ""
+tags: ["astro", "blogging", "learning", "metal", "successes", "4thWay", "burning"]
+---
+
+<!-- For images in post ![Topology](./TopologyD.png) -->
+
+Write here.

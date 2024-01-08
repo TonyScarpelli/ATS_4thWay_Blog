@@ -3,13 +3,13 @@ title: 'My First Blog Post'
 pubDate: 12-26-2023
 description: 'This is the first post of my ATS_4thWay_Blog.'
 author: 'Tony Scarpelli'
-image:
-    url: ''
-    alt: ''
+image: ""
 tags: ["astro", "blogging", "learning"]
 ---
 
 Welcome to my blog.
+
+**Learning how to make a blog in Astro**
 
 ## What I've accomplished
 

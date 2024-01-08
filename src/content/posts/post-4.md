@@ -1,12 +1,10 @@
 ---
-title: My Fourth Blog Post
+title: Going into the forth 
 author: Tony Scarpelli
 description: "When we look within"
 pubDate: 01-04-2024
-image:
-  url: ""
-  alt: ""
-tags: ["astro", "blogging", "4thWay"]
+image: ""
+tags: ["astro", "blogging", "successes", "4thWay"]
 ---
 
 That image above is a Hyper Cube.<br>
