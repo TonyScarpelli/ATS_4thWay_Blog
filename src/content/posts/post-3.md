@@ -2,8 +2,10 @@
 title: What I've accomlished so far
 author: Tony Scarpelli
 description: This is my third post of my ATS_4thWay_Blog.
-pubDate: 12-30-2023
+pubDate: 2023-12-30
 image: ""
+sortOrder: 3
+draft: false
 tags: ["astro", "blogging", "learning"]
 ---
 

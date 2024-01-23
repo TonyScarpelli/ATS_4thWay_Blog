@@ -1,9 +1,11 @@
 ---
 title: My Dillenger Blog Post
-pubDate: 01-06-2024
-description: "This is just a test."
 author: Tony Scarpelli
+description: "This is just a test."
+pubDate: 2024-01-06
 image: ""
+sortOrder: 7
+draft: false
 tags: ["astro", "blogging", "learning"]
 ---
 We are trying this out to see if I can get it to work.

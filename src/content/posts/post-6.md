@@ -1,9 +1,11 @@
 ---
 title: Learning to create posts
-pubDate: 01-06-2024
-description: "We are trying to easily create markdown files."
 author: Tony Scarpelli
+description: "We are trying to easily create markdown files."
+pubDate: 2024-01-06
 image: ""
+sortOrder: 6
+draft: false
 tags: ["astro", "learning"]
 ---
 We are still trying to figure out how to create and edit markdown files.

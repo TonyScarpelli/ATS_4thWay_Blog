@@ -4,7 +4,20 @@ import BaseLayout from "../layouts/BaseLayout.astro";
 import BlogPost from "../components/BlogPost.astro";
 
 const pageTitle = "Blog page";
-const allPosts = await getCollection("posts");
+
+//const allPosts = await getCollection("posts");
+//let posts = await getCollection('posts')
+
+// sorts sortOrder latest to first
+//let posts = (await getCollection("posts"))
+//.filter((p) => p.data.draft !== true)
+//.sort((a, b) => b.data.sortOrder - a.data.sortOrder,);
+
+// sorts pubDate last to first and keeps drafts out of the list
+let posts = (await getCollection("posts"))
+  .filter((p) => p.data.draft !== true)
+  .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
+
 ---
 
 <BaseLayout pageTitle={pageTitle}>
@@ -15,9 +28,9 @@ const allPosts = await getCollection("posts");
   </p>
   <ul>
     {
-      allPosts.map((post) => (
-      <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} />
-      ))
+        posts.map((post) => (
+          <BlogPost url={`/posts/${post.slug}/`} title={post.data.title} />
+        ))
     }
   </ul>
 </BaseLayout>

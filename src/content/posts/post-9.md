@@ -2,8 +2,10 @@
 title: Using VS Code for Markdowns
 author: Tony Scarpelli
 description: "We can actually see what the markdown looks like when we use VS Code"
-pubDate: 01-08-2024
+pubDate: 2024-01-08
 image: ""
+sortOrder: 9
+draft: false
 tags: ["astro", "learning"]
 ---
 

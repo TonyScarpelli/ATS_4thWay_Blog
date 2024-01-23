@@ -1,9 +1,11 @@
 ---
-title: 'My First Blog Post'
-pubDate: 12-26-2023
-description: 'This is the first post of my ATS_4thWay_Blog.'
+title: 'My First Blog Post - 1'
 author: 'Tony Scarpelli'
+description: 'This is the first post of my ATS_4thWay_Blog.'
+pubDate: 2023-12-26
 image: ""
+sortOrder: 1
+draft: false
 tags: ["astro", "blogging", "learning"]
 ---
 

@@ -2,8 +2,10 @@
 title: My Fifth Blog Post
 author: Tony Scarpelli
 description: "This post will show up on its own!"
-pubDate: 12-30-2023
+pubDate: 2023-12-30
 image: ""
+sortOrder: 5
+draft: false
 tags: ["astro", "successes", "blogging", "burning"]
 ---
 

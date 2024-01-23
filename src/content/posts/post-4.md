@@ -1,9 +1,11 @@
 ---
-title: Going into the forth 
+title: Going into the forth - 4
 author: Tony Scarpelli
 description: "When we look within"
-pubDate: 01-04-2024
+pubDate: 2024-01-04
 image: ""
+sortOrder: 4
+draft: false
 tags: ["astro", "blogging", "successes", "4thWay"]
 ---
 

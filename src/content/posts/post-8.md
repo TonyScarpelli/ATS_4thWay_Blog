@@ -2,8 +2,10 @@
 title: Writing markdown another way
 author: Tony Scarpelli
 description: "Creating markdown more easily"
-pubDate: 01-07-2024
+pubDate: 2024-01-07
 image: ""
+sortOrder: 8
+draft: false
 tags: ["astro", "learning", "successes"]
 ---
 
