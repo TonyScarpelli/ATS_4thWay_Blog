@@ -2,7 +2,7 @@
 title: Handy Hints
 author: Tony Scarpelli
 description: "Years of figuring how to do things easily"
-pubDate: 2024-01-12
+pubDate: 2024-01-13
 image: ""
 sortOrder: 1
 draft: false
