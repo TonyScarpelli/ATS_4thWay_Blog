@@ -5,10 +5,11 @@ import BlogPost from "../../components/BlogPost.astro";
 
 export async function getStaticPaths() {
 
+  // This gets all the posts
   const allPosts = await getCollection("posts");
   const uniqueTags = [...new Set(allPosts.map((post) => post.data.tags).flat())];
 
-  // sorts pubDate last to first and keeps drafts out of the list
+  // Sorts pubDate last to first and keeps Drafts out of the list
   let posts = (await getCollection("posts"))
   .filter((p) => p.data.draft !== true)
   .sort((a, b) => new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf());
