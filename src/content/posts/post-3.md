@@ -1,5 +1,5 @@
 ---
-title: What I've accomlished so far
+title: What I've accomplished so far
 author: Tony Scarpelli
 description: This is my third post of my ATS_4thWay_Blog.
 pubDate: 2023-12-30

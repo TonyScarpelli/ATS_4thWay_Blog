@@ -23,8 +23,7 @@ Now you can see what the markdown file looks like at the right side of VS Code.
 
 When you open Command Palette again the command will be at or close to the top.
 
-I added extensions **Markdown Shortcuts**, **markdonlint**, and **Markdown TOC**.
+I added extensions **Markdown Shortcuts**, **markdownlint**, and **Markdown TOC**.
 
 Here is a link to using **Markdown and Visual Studio Code**.
-https://code.visualstudio.com/docs/languages/markdown
-
+<https://code.visualstudio.com/docs/languages/markdown>

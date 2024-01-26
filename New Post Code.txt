@@ -2,8 +2,10 @@
 title: My ???? Blog Post
 author: Tony Scarpelli
 description: "????"
-pubDate: nn-nn-nnnn
+pubDate: 2004-nn-nn
 image: ""
+sortOrder: 0
+draft: false
 tags: ["astro", "blogging", "learning", "metal", "successes", "4thWay", "burning"]
 ---
 

@@ -37,4 +37,4 @@ Write here.
 This is easy when I'm at the computer and can open VS Code. You just open the text file, copy the code, create the next post, and paste it in.
 
 If I'm at some other computer I think I would use Dillinger.
-Then I would just have to go to https://dillinger.io/ and save the file to one of the drives where I can access from all my computers.
+Then I would just have to go to <https://dillinger.io/> and save the file to one of the drives where I can access from all my computers.

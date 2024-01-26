@@ -1,0 +1,17 @@
+{
+    "cSpell.words": [
+        "Astro",
+        "Fadiman",
+        "handyhints",
+        "Moebius",
+        "Polydent",
+        "Polyident",
+        "Scarpelli",
+        "statin"
+    ],
+    "search.searchEditor.defaultNumberOfContextLines": 3,
+    "debug.console.collapseIdenticalLines": false,
+    "json.format.keepLines": true,
+    "todo.archive.remove.emptyLines": 0,
+    "trailing-spaces.includeEmptyLines": false
+}
